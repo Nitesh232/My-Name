@@ -45,8 +45,8 @@ header > form {
   outline: none;
   border: none;
   width: 80%;
+  
 }
-
 #search-btn {
   border: none;
   outline: none;
@@ -61,7 +61,14 @@ header > form {
   justify-content: center;
   align-items: center;
 }
-
+#searchbox{
+  border:none;
+  border-radius:5px;
+  padding:5px ;
+}
+.cards{
+  cursor: pointer;
+}
 .Your-Name {
   padding: 7% 15%;
   background-color: #e94560;
